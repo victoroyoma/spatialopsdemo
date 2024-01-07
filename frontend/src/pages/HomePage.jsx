@@ -16,6 +16,9 @@ const HomePage = () => {
   const [profiles] = useState([
     { name: "Suzanne", details: "Details about Suzanne" },
     { name: "Lewey", details: "Details about Lewey" },
+    { name: "Victor", details: "Details about Victor" },
+    { name: "Chris", details: "Details about Chris" },
+    { name: "Dave", details: "Details about Dave" },
     // ... other profiles
   ]);
   const [selectedProfile, setSelectedProfile] = useState(profiles[0]);
